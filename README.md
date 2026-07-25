@@ -15,3 +15,19 @@ que, a partir del análisis de la información histórica disponible, proponga u
 que permita estimar el costo de los equipos de forma sistemática y sostenible en el tiempo,
 y que adicionalmente sirva como insumo para la planeación financiera del proyecto en los
 meses venideros.
+
+# Beneficios esperados:
+- Contar con un mecanismo reproducible para anticipar costos de equipos antes del
+inicio de cada fase del proyecto.
+
+- Reducir las desviaciones presupuestales asociadas a la volatilidad en los precios de
+insumos.
+
+- Establecer una base analítica que permita evaluar y comparar proveedores de
+forma objetiva.
+
+# Objetivos
+
+- Proyectar los costos de los equipos mediante modelos de pronóstico que estimen los precios futuros a partir de la relación entre las materias primas y los equipos, considerando la incertidumbre de las predicciones.
+- Presentar los resultados mediante un agente de IA que permita interactuar con el análisis, responder preguntas del usuario e integrar información externa del mercado para enriquecer las proyecciones, explicando además las diferencias entre un modelo de IA y un agente de IA.
+- Diseñar una arquitectura en la nube (AWS, Azure o GCP) que soporte el flujo completo de la solución, desde la ingesta y procesamiento de datos hasta la ejecución del modelo y la visualización de los resultados.
