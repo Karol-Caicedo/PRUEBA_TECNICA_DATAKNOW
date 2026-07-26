@@ -23,8 +23,7 @@ inicio de cada fase del proyecto.
 - Reducir las desviaciones presupuestales asociadas a la volatilidad en los precios de
 insumos.
 
-- Establecer una base analítica que permita evaluar y comparar proveedores de
-forma objetiva.
+- Establecer una base analítica para comprender el comportamiento histórico de los costos de adquisición de los equipos.
 
 # Objetivos
 
