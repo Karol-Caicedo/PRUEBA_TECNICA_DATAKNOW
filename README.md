@@ -43,5 +43,16 @@ Un supuesto de proyecto se utiliza en la planificación de proyectos para defini
 - La relación de los datos históricos continuará en el horizonte de predicción de 1 año.
 - Se asume que los costos de adquisición de los equipos varían en el tiempo y que es posible modelar o predecir dichas variaciones para mejorar la planeación financiera de la empresa.
 
+# Formas para resolver el caso
 
+Los métodos cuantitativos facilitan el análisis de datos numéricos y estadísticos. Para interpretar el comportamiento de datos históricos de un negocio para hacer pronósticos y proyecciones al futuro, los métodos  de pronosticos con series de tiempo más utilizados en la práctica son (Regresiones simples, promedios móviles simples y ponderados, método de descomposición estacional, SARIMA y suavización exponencial).
+
+**Métodos de pronósticos cuantitativos:**
+
+1. **Pronóstico ingenuo:** Utiliza el valor del período anterior como predicción para el siguiente. Es el método más simple y suele emplearse como referencia para comparar el desempeño de modelos de pronóstico más avanzados. Modelos que utiliza ( **Naïve Forecast**).
+2. **Método de promedio móvil:** Calcula el promedio de varios períodos anteriores para estimar el valor futuro. Funciona bien cuando los datos son estables, aunque responde lentamente a cambios en la tendencia o la estacionalidad. Modelos que utiliza (**Promedio Móvil Simple**  y **Promedio Móvil Ponderado (WMA).**
+3. **Método de suavizado exponencial:** Asigna mayor peso a los datos más recientes, permitiendo que el pronóstico se adapte más rápidamente a cambios en el comportamiento de la serie. Es adecuado para pronósticos de corto plazo y entornos dinámicos. Modelos que utiliza (**Suavizado Exponencial Simple, doble suavizado)** y **Holt-Winters (triple suavizado).**
+4. **Proyección de tendencias:** Analiza el comportamiento histórico para identificar tendencias y proyectarlas hacia el futuro. Es útil cuando existen suficientes datos históricos y se espera que la tendencia continúe en el tiempo. Modelos que utiliza (**Regresión Lineal**, **Regresión Polinómica**, **Modelo de Tendencia Exponencial**, **Modelo Logarítmico).**
+
+La solución a implementar es el método de proyeccion de tendencias ya que se ajusta a lo que busca  la empresa que es: proyectar el comportamiento esperado de los costos de cada equipo para los meses requeridos por el proyecto hacia el futuro. Utilizando el modelo forecasting multivariable porque este  modelo utiliza otras variables además del historial de la variable objetivo para realizar la predicción. En este caso de negocio las otra variables son Price_X, Price_Y, Price_Z, Date y las variables objetivos  Price_Equipo1 y Price_Equipo2.
 
