@@ -57,3 +57,17 @@ Los métodos cuantitativos facilitan el análisis de datos numéricos y estadís
 La solución a implementar es el método de proyeccion de tendencias ya que se ajusta a lo que busca  la empresa que es: proyectar el comportamiento esperado de los costos de cada equipo para los meses requeridos por el proyecto hacia el futuro. Utilizando el modelo forecasting multivariable porque este  modelo utiliza otras variables además del historial de la variable objetivo para realizar la predicción. En este caso de negocio las otra variables son Price_X, Price_Y, Price_Z, Date y las variables objetivos  Price_Equipo1 y Price_Equipo2.
 
 El forecasting basado en IA es el uso de la inteligencia artificial para producir pronósticos precisos mediante el aprendizaje de patrones a partir de datos históricos y la actualización continua de los modelos de forecasting a medida que llegan nuevos datos.
+
+# Proyección de costos y horizonte de predicción
+Teniendo en cuenta que la empresa quiere hacer el pronostico para los meses venideros y él último histórico es de agosto (2023-08-31), tomé la decisión de realizar el pronóstico con un horizonte de 4 meses 
+(desde septiembre hasta diciembre 2023) ya que se ha realizado durante los 13 años (2010-2023) registros del costo de los equipos desde enero hasta diciembre.
+
+# Resultados del análisis de los datos y los modelos
+
+
+
+# Futuros ajustes o mejoras
+
+
+
+
