@@ -89,9 +89,11 @@ Esto quiere decir que el precio de aquisicion de los equipos para esas fechas in
 - Promedio mensual: $1,070.06
 - Rango de incertidumbre promedio: $51.23
 
-- Estos resultados indican que, según el pronóstico, el costo del Equipo 2 durante el mes de septiembre varió entre un mínimo de $1,065.13 y un máximo de $1,078.71, con un promedio de $1,070.06. La fecha con el costo más alto fue el 30 de septiembre, con un costo de $1,078.71.
-- El rango de incertidumbre promedio de $51.23 sugiere que hay una cierta variabilidad en los pronósticos, lo que significa que el costo real puede haber sido ligeramente diferente al pronosticado.
-- En general, estos resultados sugieren que el costo del Equipo 2 durante el mes de septiembre fue relativamente estable, con una tendencia a aumentar hacia el final del mes. Sin embargo, es importante tener en cuenta que estos son solo pronósticos y que los resultados reales pueden haber variado.
+Estos resultados indican que, según el pronóstico, el costo del Equipo 2 durante el mes de septiembre varió entre un mínimo de $1,065.13 y un máximo de $1,078.71, con un promedio de $1,070.06. La fecha con el costo más alto fue el 30 de septiembre, con un costo de $1,078.71.
+
+El rango de incertidumbre promedio de $51.23 sugiere que hay una cierta variabilidad en los pronósticos, lo que significa que el costo real puede haber sido ligeramente diferente al pronosticado.
+
+En general, estos resultados sugieren que el costo del Equipo 2 durante el mes de septiembre fue relativamente estable, con una tendencia a aumentar hacia el final del mes. Sin embargo, es importante tener en cuenta que estos son solo pronósticos y que los resultados reales pueden haber variado.
 
 
 
@@ -113,6 +115,7 @@ Esto quiere decir que el precio de aquisicion de los equipos para esas fechas in
   En resumen, septiembre tuvo un promedio de costo de $483.40, con un máximo de $490.67 y un mínimo de $468.92.
 
 **Estos son algunos de los muchos resultado que hay expuestos por medio de la IA, sin embargo, por cuestiones de que son modelo gratuitos está la limitacion de token por dias**
+
 
 5. La importancia de usar modelos de machine learning en la gestión de costos operativos radica en su capacidad para analizar grandes cantidades de datos, identificar patrones y tendencias, y hacer predicciones     precisas sobre los costos futuros. Esto permite a las empresas tomar decisiones informadas y optimizar sus procesos para reducir costos y mejorar la eficiencia.
 
