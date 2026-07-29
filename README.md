@@ -135,14 +135,18 @@ Esto quiere decir que el precio de aquisicion de los equipos para esas fechas in
 <img width="527" height="402" alt="image" src="https://github.com/user-attachments/assets/314dafbc-2236-44a0-8b39-fc8a66832333" />
 
 
+
+
 Porcentaje de variacion por cada insumo: Variables determinantes
 
 - En modelo Random Forest: el 99.16% de los cambios en el costo del Equipo 1 se explican exclusivamente por la materia prima Y. Las demás variables (X, Z ) son prácticamente ruido estadístico para este equipo.
   Para el equipo 2, El 95.75% del costo es determinado por la materia prima Z. La materia prima Y tiene un impacto marginal (2.4%), y el x es ruido estadístico para este equipo."
 - Bajo la metrica de confianza  R2 que indica qué tan bueno fue el modelo explicándolo con datos que nunca había visto. Para este caso el resultado es que nuestro modelo logra explicar el 68.2% de la realidad      del Equipo 1 y el 59.5% del Equipo 2 utilizando únicamente estas materias primas.
+  
 
 
 **Otros Hallazgos Visuales**
+
 
 
 <img width="533" height="521" alt="image" src="https://github.com/user-attachments/assets/3d3fdfb8-a47c-422d-9946-c3231e0d932a" />
