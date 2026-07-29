@@ -117,6 +117,7 @@ Esto quiere decir que el precio de aquisicion de los equipos para esas fechas in
 **Estos son algunos de los muchos resultado que hay expuestos por medio de la IA, sin embargo, por cuestiones de que son modelo gratuitos está la limitacion de token por dias**
 
 
+
 5. La importancia de usar modelos de machine learning en la gestión de costos operativos radica en su capacidad para analizar grandes cantidades de datos, identificar patrones y tendencias, y hacer predicciones     precisas sobre los costos futuros. Esto permite a las empresas tomar decisiones informadas y optimizar sus procesos para reducir costos y mejorar la eficiencia.
 
    Algunos de los beneficios del uso de modelos de machine learning en la gestión de costos operativos incluyen:
