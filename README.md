@@ -67,10 +67,58 @@ Teniendo en cuenta que la empresa quiere hacer el pronostico para los meses veni
 # Resultados del análisis de los datos y los modelos
 
 Preguntas realizadas al modelo de IA
+1. ¿Cuál fue el pronostico para el dia 3 de septiembre?, ¿y para el dia 2? -> Equipo2
+2. ¿Cuál fue el pronostico para el mes de septiembre? -> equipo2
+3. ¿Cuál fue el pronostico para el dia 1 de octubre?, ¿y para el dia 2? -> Equipo2
+4. ¿Cuál fue el pronostico para el mes de octubre? -> equipo2 ¿cómo se interpretan estos resultados?
+5. ¿Cuál fue el pronostico para el dia 3 de septiembre?, ¿y para el dia 2? -> Equipo1
+6. ¿Cuál fue el pronostico para el mes de septiembre? -> equipo1
+7. ¿Cuál fue el pronostico para el dia 1 de octubre?, ¿y para el dia 2? -> Equipo1
+8- ¿Cuál fue el pronostico para el mes de octubre? -> equipo1 ¿cómo se interpretan estos resultados?
 
 
 
-Respuestas
+Respuesta
+1 - El pronóstico para el día 3 de septiembre fue de $1,076.63 con un rango de incertidumbre del 90% entre $1,049.83 y $1,100.85.
+  - El pronóstico para el día 2 de septiembre fue de $1,076.19 con un rango de incertidumbre del 90% entre $1,050.11 y $1,099.30.
+
+Esto quiere decir que el precio de aquisicion de los equipos para esas fechas indicadas oscila entre (90% entre $1,049.83 y $1,100.85) y (90% entre $1,050.11 y $1,099.30.)
+
+2 - El pronóstico para el mes de septiembre incluyó los siguientes datos principales:
+
+Fecha con costo más alto: 30 de septiembre con un costo de $1,078.71
+Costo máximo del mes: $1,078.71
+Costo mínimo: $1,065.13
+Promedio mensual: $1,070.06
+Rango de incertidumbre promedio: $51.23
+
+Estos resultados indican que, según el pronóstico, el costo del Equipo 2 durante el mes de septiembre varió entre un mínimo de $1,065.13 y un máximo de $1,078.71, con un promedio de $1,070.06. La fecha con el costo más alto fue el 30 de septiembre, con un costo de $1,078.71.
+
+El rango de incertidumbre promedio de $51.23 sugiere que hay una cierta variabilidad en los pronósticos, lo que significa que el costo real puede haber sido ligeramente diferente al pronosticado.
+
+En general, estos resultados sugieren que el costo del Equipo 2 durante el mes de septiembre fue relativamente estable, con una tendencia a aumentar hacia el final del mes. Sin embargo, es importante tener en cuenta que estos son solo pronósticos y que los resultados reales pueden haber variado.
+
+3. ¿Cuál fue el pronostico para el dia 1 de octubre?, ¿y para el dia 2? -> Equipo2
+
+   
+5. ¿Cuál fue el pronostico para el mes de octubre? -> equipo2 ¿cómo se interpretan estos resultados?
+
+4. ¿Cuál fue el pronostico para el mes de octubre? -> equipo2 ¿cómo se interpretan estos resultados?
+   
+6. ¿Cuál fue el pronostico para el dia 3 de septiembre?, ¿y para el dia 2? -> Equipo1
+   - El costo pronosticado para el dia 3 de septiembre fue $480.41 con un intervalo de confianza del 90% entre $466.50 y $493.35.
+   - El costo pronosticado para el dia 2 de septiembre fue $480.49 con un intervalo de confianza del 90% entre $466.90 y $494.83.
+  
+Esto quiere decir que el precio de aquisicion de los equipos para esas fechas indicadas oscila entre (90% entre $466.90 y $494.83)
+   
+8. ¿Cuál fue el pronostico para el mes de septiembre? -> equipo1
+   
+10. ¿Cuál fue el pronostico para el dia 1 de octubre?, ¿y para el dia 2? -> Equipo1
+    
+8- ¿Cuál fue el pronostico para el mes de octubre? -> equipo1 ¿cómo se interpretan estos resultados?
+
+
+
 
 
 
@@ -80,34 +128,16 @@ Respuestas
 <img width="710" height="365" alt="Captura de pantalla 2026-07-29 045610" src="https://github.com/user-attachments/assets/03b21fe9-23dc-4084-b3e8-c81989693c30" />
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Futuros ajustes o mejoras
 
 - Ajustar el modelo de pronostico Prophet ademas de dar como resultado el precio a futuro de las variables independientes tambien de el precio del equipo ya que solo muestra el nombre mas no el precio.
-- Mejorar la configuracion de la inteligencia artificial para que en lugar de tener que hacerles preguntas muy puntuales porque la interfaz está hecha para seleccionar el mes y equipo a pronosticar, pueda           interpretar cualquier pregunta relacionada con cada tipo de equipo sin tener que haber seleccionado nada, sino que funcione como un cuadro de dialogo como chat gpt.
-
-# Apreciaciones del caso
+- Mejorar la configuracion de la inteligencia artificial para que en lugar de tener que hacerles preguntas muy puntuales porque la interfaz está hecha para seleccionar el mes y equipo a pronosticar, pueda         interpretar cualquier pregunta relacionada con cada tipo de equipo sin tener que haber seleccionado nada, sino que funcione como un cuadro de dialogo como chat gpt.
+# Apreciaciones del caso o recomendaciones
 
 - Por lo general los modelos para pronosticar necesitan un historico que tengan todas las fechas dia a dia para mas precision a la hora de pronosticar a futuro, se pudo evidenciar que el dataset tenia saltos de dias podian ser 1,3,4. por mes para algunos tenia registros de 20 dias otros 21, etc. Conservar un historicos completo del mes seria mi recomendacion para un pronostico mas acertado. Esto solucionaría posiblemente lo dicho como futura mejora.
   
 - -Al comenzar la prueba durante los primeros 3 días investigué en sitios, PDF y videos de YouTube pero todas la soluciones recurrían a utilizar Azure machine Learning el módulo de designer donde todo el flujo se construía utilizando los componentes y el proceso de predicción se realizaba de forma interna pero en este entregable pedía código funcional así que como último recurso en los dos últimos días Lunes, recurrí a la Inteligencia artificial para poder brindar una solución al caso.
+
+- Teniendo en cuenta de que la solucion es presentada por medio de la nube, siempre que vayan a correr los notebook ejecutarlos con ejecutar all. Claro, cuando primero ya haya prendido el computo y conectado a los notebook.
 
 
