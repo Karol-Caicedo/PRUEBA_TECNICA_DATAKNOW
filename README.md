@@ -125,7 +125,7 @@ Esto quiere decir que el precio de aquisicion de los equipos para esas fechas in
 # Demostracion Visual de que el agente de IA funciona
 
 
-<img width="710" height="365" alt="Captura de pantalla 2026-07-29 045610" src="https://github.com/user-attachments/assets/03b21fe9-23dc-4084-b3e8-c81989693c30" />
+
 
 
 # Futuros ajustes o mejoras
