@@ -86,6 +86,7 @@ Teniendo en cuenta que la empresa quiere hacer el pronostico para los meses veni
 # Futuros ajustes o mejoras
 
 - Ajustar el modelo de pronostico Prophet ademas de dar como resultado el precio a futuro de las variables independientes taanbien de el precio del equipo ya que solo muestra el nombre mas no el precio.
+- Mejorar la configuracion de la inteligencia artificial para que en lugar de tener que hacerles preguntas muy puntuales porque la interfaz está hecha para seleccionar el mes y equipo a pronosticar, pueda           interpretar cualquier pregunta relacionada con cada tipo de equipo sin tener que haber seleccionado nada, sino que funcione como un cuadro de dialogo como chat gpt.
 
 # Apreciaciones del caso
 
