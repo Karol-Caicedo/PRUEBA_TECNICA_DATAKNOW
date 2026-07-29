@@ -101,6 +101,7 @@ Esto quiere decir que el precio de aquisicion de los equipos para esas fechas in
   
 Esto quiere decir que el precio de aquisicion de los equipos para esas fechas indicadas oscila entre (90% entre $466.90 y $494.83)
    
+   
 4. El pronóstico para el mes de septiembre incluyó los siguientes datos principales:
 
 - Fecha con costo más alto: 2023-09-04 con un costo de $490.67
@@ -134,14 +135,17 @@ Porcentaje de variacion por cada insumo: Variables determinantes
 
 - Bajo la metrica de confianza  R2 que indica qué tan bueno fue el modelo explicándolo con datos que nunca había visto. Para este caso el resultado es que nuestro modelo logra explicar el 68.2% de la realidad      del Equipo 1 y el 59.5% del Equipo 2 utilizando únicamente estas materias primas.
 
+
 Otros Hallazgos Visuales
 <img width="416" height="312" alt="image" src="https://github.com/user-attachments/assets/3b96a819-0e63-46e9-80b6-5c0b8ac8ce28" />
+
 
 Esta matriz de correlacion mide qué tan relacionados están los insumos entre sí. Va de -1 (inverso) a 1 (idénticos). 0 significa sin relación.
 - El cuadro rojo oscuro entre Price_Y y Price_Z indica una relación fuerte (0.84). Cuando el precio de Y sube, el de Z casi siempre sube también en el mercado.
  
 
 <img width="395" height="166" alt="image" src="https://github.com/user-attachments/assets/b437fc17-2e2a-4772-9c4b-f300fbcc33a7" />
+
 
 Los valores absolutos representan el impacto estimado: por cada dólar que sube el insumo, cuánto sube (o baja) el precio del equipo. Al ver el valor absoluto, evaluamos la "fuerza" del impacto, ignorando si es positivo o negativo.
 
@@ -151,6 +155,7 @@ Los valores absolutos representan el impacto estimado: por cada dólar que sube 
 
 
 # Demostracion Visual de que el agente de IA funciona
+
 
 <img width="1228" height="247" alt="image" src="https://github.com/user-attachments/assets/8212e28f-cff8-43f0-92e3-9242deaaaee4" />
 
