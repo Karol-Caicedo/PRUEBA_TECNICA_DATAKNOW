@@ -90,40 +90,40 @@ Esto quiere decir que el precio de aquisicion de los equipos para esas fechas in
 - Rango de incertidumbre promedio: $51.23
 
 - Estos resultados indican que, según el pronóstico, el costo del Equipo 2 durante el mes de septiembre varió entre un mínimo de $1,065.13 y un máximo de $1,078.71, con un promedio de $1,070.06. La fecha con el costo más alto fue el 30 de septiembre, con un costo de $1,078.71.
-
 - El rango de incertidumbre promedio de $51.23 sugiere que hay una cierta variabilidad en los pronósticos, lo que significa que el costo real puede haber sido ligeramente diferente al pronosticado.
-
 - En general, estos resultados sugieren que el costo del Equipo 2 durante el mes de septiembre fue relativamente estable, con una tendencia a aumentar hacia el final del mes. Sin embargo, es importante tener en cuenta que estos son solo pronósticos y que los resultados reales pueden haber variado.
+
 
 
 3. - El costo pronosticado para el dia 3 de septiembre fue $480.41 con un intervalo de confianza del 90% entre $466.50 y $493.35.
    - El costo pronosticado para el dia 2 de septiembre fue $480.49 con un intervalo de confianza del 90% entre $466.90 y $494.83.
+     
   
 Esto quiere decir que el precio de aquisicion de los equipos para esas fechas indicadas oscila entre (90% entre $466.90 y $494.83)
    
    
 4. El pronóstico para el mes de septiembre incluyó los siguientes datos principales:
 
-- Fecha con costo más alto: 2023-09-04 con un costo de $490.67
-- Costo máximo del mes: $490.67
-- Costo mínimo: $468.92
-- Promedio mensual: $483.40
-- Rango de incertidumbre promedio: $27.11
+  - Fecha con costo más alto: 2023-09-04 con un costo de $490.67
+  - Costo máximo del mes: $490.67
+  - Costo mínimo: $468.92
+  - Promedio mensual: $483.40
+  - Rango de incertidumbre promedio: $27.11
   
-En resumen, septiembre tuvo un promedio de costo de $483.40, con un máximo de $490.67 y un mínimo de $468.92.
+  En resumen, septiembre tuvo un promedio de costo de $483.40, con un máximo de $490.67 y un mínimo de $468.92.
 
 **Estos son algunos de los muchos resultado que hay expuestos por medio de la IA, sin embargo, por cuestiones de que son modelo gratuitos está la limitacion de token por dias**
 
-5. La importancia de usar modelos de machine learning en la gestión de costos operativos radica en su capacidad para analizar grandes cantidades de datos, identificar patrones y tendencias, y hacer predicciones precisas sobre los costos futuros. Esto permite a las empresas tomar decisiones informadas y optimizar sus procesos para reducir costos y mejorar la eficiencia.
+5. La importancia de usar modelos de machine learning en la gestión de costos operativos radica en su capacidad para analizar grandes cantidades de datos, identificar patrones y tendencias, y hacer predicciones     precisas sobre los costos futuros. Esto permite a las empresas tomar decisiones informadas y optimizar sus procesos para reducir costos y mejorar la eficiencia.
 
-Algunos de los beneficios del uso de modelos de machine learning en la gestión de costos operativos incluyen:
+   Algunos de los beneficios del uso de modelos de machine learning en la gestión de costos operativos incluyen:
 
-- Mejora en la precisión de las predicciones de costos
-- Identificación de patrones y tendencias en los datos que pueden ayudar a reducir costos
-- Optimización de procesos y recursos
-- Reducción de costos y mejora de la eficiencia
-- Mejora en la toma de decisiones informadas
-- En el contexto de la logística y el transporte, el uso de modelos de machine learning puede ayudar a optimizar rutas, reducir costos de combustible y mejorar la eficiencia en la gestión de la cadena de           suministro. Además, la IA puede ayudar a anticipar escenarios operativos y mejorar la toma de decisiones basadas en datos.
+   - Mejora en la precisión de las predicciones de costos
+   - Identificación de patrones y tendencias en los datos que pueden ayudar a reducir costos
+   - Optimización de procesos y recursos
+   - Reducción de costos y mejora de la eficiencia
+   - Mejora en la toma de decisiones informadas
+   - En el contexto de la logística y el transporte, el uso de modelos de machine learning puede ayudar a optimizar rutas, reducir costos de combustible y mejorar la eficiencia en la gestión de la cadena de           suministro. Además, la IA puede ayudar a anticipar escenarios operativos y mejorar la toma de decisiones basadas en datos.
   
 
 **Otros hallazgos como resultado de la consola**
@@ -136,7 +136,6 @@ Porcentaje de variacion por cada insumo: Variables determinantes
 
 - En modelo Random Forest: el 99.16% de los cambios en el costo del Equipo 1 se explican exclusivamente por la materia prima Y. Las demás variables (X, Z ) son prácticamente ruido estadístico para este equipo.
   Para el equipo 2, El 95.75% del costo es determinado por la materia prima Z. La materia prima Y tiene un impacto marginal (2.4%), y el x es ruido estadístico para este equipo."
-
 - Bajo la metrica de confianza  R2 que indica qué tan bueno fue el modelo explicándolo con datos que nunca había visto. Para este caso el resultado es que nuestro modelo logra explicar el 68.2% de la realidad      del Equipo 1 y el 59.5% del Equipo 2 utilizando únicamente estas materias primas.
 
 
@@ -151,10 +150,8 @@ Esta matriz de correlacion mide qué tan relacionados están los insumos entre s
 - El cuadro rojo oscuro entre Price_Y y Price_Z indica una relación fuerte (0.84). Cuando el precio de Y sube, el de Z casi siempre sube también en el mercado.
  
 
-Los valores absolutos representan el impacto estimado: por cada dólar que sube el insumo, cuánto sube (o baja) el precio del equipo. Al ver el valor absoluto, evaluamos la "fuerza" del impacto, ignorando si es positivo o negativo.
-
-- El insumo Price_Y (0.80) tiene el mayor impacto absoluto por una gran diferencia. Price_X tiene un impacto menor (0.20), y Price_Z es prácticamente cero (0.0005). Esto confirma que Price_Y es el verdadero determinante para el equipo1.
-
+- Los valores absolutos representan el impacto estimado: por cada dólar que sube el insumo, cuánto sube (o baja) el precio del equipo. Al ver el valor absoluto, evaluamos la "fuerza" del impacto, ignorando si es   positivo o negativo.
+- El insumo Price_Y (0.80) tiene el mayor impacto absoluto por una gran diferencia. Price_X tiene un impacto menor (0.20), y Price_Z es prácticamente cero (0.0005). Esto confirma que Price_Y es el verdadero        determinante para el equipo1.
 - El insumo Price_X (0.36) tiene un impacto ligeramente mayor, pero Price_Y (0.34) y Price_Z (0.33) le siguen muy de cerca con valores casi idénticos. A diferencia del Equipo 1, no hay un factor dominante, lo      que confirma que el costo del Equipo 2 se ve afectado de forma combinada por las tres materias primas
 
 
