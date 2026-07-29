@@ -54,15 +54,29 @@ Los métodos cuantitativos facilitan el análisis de datos numéricos y estadís
 3. **Método de suavizado exponencial:** Asigna mayor peso a los datos más recientes, permitiendo que el pronóstico se adapte más rápidamente a cambios en el comportamiento de la serie. Es adecuado para pronósticos de corto plazo y entornos dinámicos. Modelos que utiliza (**Suavizado Exponencial Simple, doble suavizado)** y **Holt-Winters (triple suavizado).**
 4. **Proyección de tendencias:** Analiza el comportamiento histórico para identificar tendencias y proyectarlas hacia el futuro. Es útil cuando existen suficientes datos históricos y se espera que la tendencia continúe en el tiempo. Modelos que utiliza (**Regresión Lineal**, **Regresión Polinómica**, **Modelo de Tendencia Exponencial**, **Modelo Logarítmico).**
 
-La solución a implementar es el método de proyeccion de tendencias ya que se ajusta a lo que busca  la empresa que es: proyectar el comportamiento esperado de los costos de cada equipo para los meses requeridos por el proyecto hacia el futuro. Utilizando el modelo forecasting multivariable porque este  modelo utiliza otras variables además del historial de la variable objetivo para realizar la predicción. En este caso de negocio las otra variables son Price_X, Price_Y, Price_Z, Date y las variables objetivos  Price_Equipo1 y Price_Equipo2.
+- La solución a implementar es el método de proyeccion de tendencias ya que se ajusta a lo que busca  la empresa que es: proyectar el comportamiento esperado de los costos de cada equipo para los meses requeridos por el proyecto hacia el futuro. Utilizando el modelo forecasting multivariable Prophet, este  modelo permtite predecir un valor futuro con base en el tiempo y  es un algoritmo especializado exclusivamente en series temporales con estacionalidad, perfecto para capturar los ciclos diarios y semanales de los precios.  Este modelo genera Prophet  intervalos de confianza (las bandas de límite superior e inferior).  Donde se puede decir que "el costo oscilará entre este máximo y este mínimo con un 90% de seguridad".
 
-El forecasting basado en IA es el uso de la inteligencia artificial para producir pronósticos precisos mediante el aprendizaje de patrones a partir de datos históricos y la actualización continua de los modelos de forecasting a medida que llegan nuevos datos.
+- Para determinar que variables constituyen ruido y cual no, se utilizó el modelo Random Forest Regressor de ya que parte del analisis consitía en no solo saber si  "sube o baja", sino cuánto influye cada insumo en el valor real del costo. Es un modelo adecuado para series en tiempo. Su objetivo principal Random Forest no es pronosticar el futuro, sino usar toda la historia para auditar los datos, encontrar relaciones no lineales y extraer matemáticamente la importancia de cada materia prima para poder  que variables son las determinantes en el precio de los equipos.
+
+Para la proyeccion de los meses se utilizó El forecasting basado en IA que es el uso de la inteligencia artificial para producir pronósticos precisos mediante el aprendizaje de patrones a partir de datos históricos y la actualización continua de los modelos de forecasting a medida que llegan nuevos datos.
 
 # Proyección de costos y horizonte de predicción
 Teniendo en cuenta que la empresa quiere hacer el pronostico para los meses venideros y él último histórico es de agosto (2023-08-31), tomé la decisión de realizar el pronóstico con un horizonte de 4 meses 
 (desde septiembre hasta diciembre 2023) ya que se ha realizado durante los 13 años (2010-2023) registros del costo de los equipos desde enero hasta diciembre.
 
 # Resultados del análisis de los datos y los modelos
+
+Preguntas realizadas al modelo de IA
+
+
+
+Respuestas
+
+
+
+# Demostracion Visual de que el agente de IA funciona
+
+
 
 
 
@@ -85,11 +99,13 @@ Teniendo en cuenta que la empresa quiere hacer el pronostico para los meses veni
 
 # Futuros ajustes o mejoras
 
-- Ajustar el modelo de pronostico Prophet ademas de dar como resultado el precio a futuro de las variables independientes taanbien de el precio del equipo ya que solo muestra el nombre mas no el precio.
+- Ajustar el modelo de pronostico Prophet ademas de dar como resultado el precio a futuro de las variables independientes tambien de el precio del equipo ya que solo muestra el nombre mas no el precio.
 - Mejorar la configuracion de la inteligencia artificial para que en lugar de tener que hacerles preguntas muy puntuales porque la interfaz está hecha para seleccionar el mes y equipo a pronosticar, pueda           interpretar cualquier pregunta relacionada con cada tipo de equipo sin tener que haber seleccionado nada, sino que funcione como un cuadro de dialogo como chat gpt.
 
 # Apreciaciones del caso
 
 - Por lo general los modelos para pronosticar necesitan un historico que tengan todas las fechas dia a dia para mas precision a la hora de pronosticar a futuro, se pudo evidenciar que el dataset tenia saltos de dias podian ser 1,3,4. por mes para algunos tenia registros de 20 dias otros 21, etc. Conservar un historicos completo del mes seria mi recomendacion para un pronostico mas acertado. Esto solucionaría posiblemente lo dicho como futura mejora.
+  
+- -Al comenzar la prueba durante los primeros 3 días investigué en sitios, PDF y videos de YouTube pero todas la soluciones recurrían a utilizar Azure machine Learning el módulo de designer donde todo el flujo se construía utilizando los componentes y el proceso de predicción se realizaba de forma interna pero en este entregable pedía código funcional así que como último recurso en los dos últimos días Lunes, recurrí a la Inteligencia artificial para poder brindar una solución al caso.
 
 
