@@ -185,6 +185,22 @@ Esta matriz de correlacion mide qué tan relacionados están los insumos entre s
 - El insumo Price_X (0.36) tiene un impacto ligeramente mayor, pero Price_Y (0.34) y Price_Z (0.33) le siguen muy de cerca con valores casi idénticos. A diferencia del Equipo 1, no hay un factor dominante, lo      que confirma que el costo del Equipo 2 se ve afectado de forma combinada por las tres materias primas
 
 
+Un sistema de inteligencia artificial convencional se enfoca en realizar una tarea específica, como predecir, clasificar o generar datos, utilizando algoritmos y modelos entrenados con datos. Estos sistemas no tienen la capacidad de percibir su entorno, tomar decisiones ni ejecutar acciones de manera autónoma.
+
+Por otro lado, un agente de IA es un sistema autónomo que puede percibir su entorno, tomar decisiones y ejecutar acciones para alcanzar un objetivo específico. Los agentes de IA tienen la capacidad de interactuar con su entorno, adaptarse a cambios y aprender de sus experiencias. Esto les permite tomar decisiones y ejecutar acciones de manera autónoma, sin la necesidad de intervención humana directa.
+
+La principal diferencia entre un sistema de IA convencional y un agente de IA es la capacidad de autonomía y la interacción con el entorno. Los sistemas de IA convencionales se enfocan en realizar tareas específicas, mientras que los agentes de IA se enfocan en alcanzar objetivos y tomar decisiones de manera autónoma.
+
+Algunas de las características clave de los agentes de IA incluyen:
+
+- Autonomía: la capacidad de tomar decisiones y ejecutar acciones sin intervención humana directa.
+- Percepción: la capacidad de percibir y entender el entorno.
+- Adaptabilidad: la capacidad de adaptarse a cambios en el entorno.
+- Aprendizaje: la capacidad de aprender de las experiencias y mejorar el desempeño.
+
+Es decir, los sistemas de IA convencionales se enfocan en realizar tareas específicas, mientras que los agentes de IA se enfocan en alcanzar objetivos y tomar decisiones de manera autónoma, interactuando con su entorno y adaptándose al cambio.
+
+
 # Demostracion Visual de que el agente de IA funciona
 
 
