@@ -66,19 +66,15 @@ Teniendo en cuenta que la empresa quiere hacer el pronostico para los meses veni
 
 # Resultados del análisis de los datos y los modelos
 
-Preguntas realizadas al modelo de IA
+**Preguntas realizadas al modelo de IA**
 1. ¿Cuál fue el pronostico para el dia 3 de septiembre?, ¿y para el dia 2? -> Equipo2
 2. ¿Cuál fue el pronostico para el mes de septiembre? -> equipo2
-3. ¿Cuál fue el pronostico para el dia 1 de octubre?, ¿y para el dia 2? -> Equipo2
-4. ¿Cuál fue el pronostico para el mes de octubre? -> equipo2 ¿cómo se interpretan estos resultados?
-5. ¿Cuál fue el pronostico para el dia 3 de septiembre?, ¿y para el dia 2? -> Equipo1
-6. ¿Cuál fue el pronostico para el mes de septiembre? -> equipo1
-7. ¿Cuál fue el pronostico para el dia 1 de octubre?, ¿y para el dia 2? -> Equipo1
-8- ¿Cuál fue el pronostico para el mes de octubre? -> equipo1 ¿cómo se interpretan estos resultados?
+3. ¿Cuál fue el pronostico para el dia 3 de septiembre?, ¿y para el dia 2? -> Equipo1
+4. ¿Cuál fue el pronostico para el mes de septiembre? -> equipo1
+5. ¿Cual es la importancia de usar modelos de machine learning para le gestion de costos operativos?
 
 
-
-Respuesta
+**Respuestas**
 1 - El pronóstico para el día 3 de septiembre fue de $1,076.63 con un rango de incertidumbre del 90% entre $1,049.83 y $1,100.85.
   - El pronóstico para el día 2 de septiembre fue de $1,076.19 con un rango de incertidumbre del 90% entre $1,050.11 y $1,099.30.
 
@@ -98,46 +94,81 @@ El rango de incertidumbre promedio de $51.23 sugiere que hay una cierta variabil
 
 En general, estos resultados sugieren que el costo del Equipo 2 durante el mes de septiembre fue relativamente estable, con una tendencia a aumentar hacia el final del mes. Sin embargo, es importante tener en cuenta que estos son solo pronósticos y que los resultados reales pueden haber variado.
 
-3. ¿Cuál fue el pronostico para el dia 1 de octubre?, ¿y para el dia 2? -> Equipo2
 
-   
-5. ¿Cuál fue el pronostico para el mes de octubre? -> equipo2 ¿cómo se interpretan estos resultados?
-
-4. ¿Cuál fue el pronostico para el mes de octubre? -> equipo2 ¿cómo se interpretan estos resultados?
-   
-6. ¿Cuál fue el pronostico para el dia 3 de septiembre?, ¿y para el dia 2? -> Equipo1
-   - El costo pronosticado para el dia 3 de septiembre fue $480.41 con un intervalo de confianza del 90% entre $466.50 y $493.35.
+3. - El costo pronosticado para el dia 3 de septiembre fue $480.41 con un intervalo de confianza del 90% entre $466.50 y $493.35.
    - El costo pronosticado para el dia 2 de septiembre fue $480.49 con un intervalo de confianza del 90% entre $466.90 y $494.83.
   
 Esto quiere decir que el precio de aquisicion de los equipos para esas fechas indicadas oscila entre (90% entre $466.90 y $494.83)
    
-8. ¿Cuál fue el pronostico para el mes de septiembre? -> equipo1
-   
-10. ¿Cuál fue el pronostico para el dia 1 de octubre?, ¿y para el dia 2? -> Equipo1
-    
-8- ¿Cuál fue el pronostico para el mes de octubre? -> equipo1 ¿cómo se interpretan estos resultados?
+4. El pronóstico para el mes de septiembre incluyó los siguientes datos principales:
+
+Fecha con costo más alto: 2023-09-04 con un costo de $490.67
+Costo máximo del mes: $490.67
+Costo mínimo: $468.92
+Promedio mensual: $483.40
+Rango de incertidumbre promedio: $27.11
+En resumen, septiembre tuvo un promedio de costo de $483.40, con un máximo de $490.67 y un mínimo de $468.92.
+
+Estos son algunos de los muchos resultado que hay expuestos por medio de la IA, sin embargo, por cuestiones de que son modelo gratuitos está la limitacion de token por dias.
+
+5. La importancia de usar modelos de machine learning en la gestión de costos operativos radica en su capacidad para analizar grandes cantidades de datos, identificar patrones y tendencias, y hacer predicciones precisas sobre los costos futuros. Esto permite a las empresas tomar decisiones informadas y optimizar sus procesos para reducir costos y mejorar la eficiencia.
+
+Algunos de los beneficios del uso de modelos de machine learning en la gestión de costos operativos incluyen:
+
+- Mejora en la precisión de las predicciones de costos
+- Identificación de patrones y tendencias en los datos que pueden ayudar a reducir costos
+- Optimización de procesos y recursos
+- Reducción de costos y mejora de la eficiencia
+- Mejora en la toma de decisiones informadas
+- En el contexto de la logística y el transporte, el uso de modelos de machine learning puede ayudar a optimizar rutas, reducir costos de combustible y mejorar la eficiencia en la gestión de la cadena de           suministro. Además, la IA puede ayudar a anticipar escenarios operativos y mejorar la toma de decisiones basadas en datos.
+  
+
+Otros hallazgos como resultado de la consola
+<img width="527" height="402" alt="image" src="https://github.com/user-attachments/assets/314dafbc-2236-44a0-8b39-fc8a66832333" />
+
+Porcentaje de variacion por cada insumo: Variables determinantes
+En modelo Random Forest: el 99.16% de los cambios en el costo del Equipo 1 se explican exclusivamente por la materia prima Y. Las demás variables (X, Z ) son prácticamente ruido estadístico para este equipo.
+Para el equipo 2, El 95.75% del costo es determinado por la materia prima Z. La materia prima Y tiene un impacto marginal (2.4%), y el x es ruido estadístico para este equipo."
+
+Bajo la metrica de confianza  R2 que indica qué tan bueno fue el modelo explicándolo con datos que nunca había visto. Para este caso el resultado es que nuestro modelo logra explicar el 68.2% de la realidad del Equipo 1 y el 59.5% del Equipo 2 utilizando únicamente estas materias primas.
+
+Otros Hallazgos Visuales
+<img width="416" height="312" alt="image" src="https://github.com/user-attachments/assets/3b96a819-0e63-46e9-80b6-5c0b8ac8ce28" />
+
+Esta matriz de correlacion mide qué tan relacionados están los insumos entre sí. Va de -1 (inverso) a 1 (idénticos). 0 significa sin relación.
+- El cuadro rojo oscuro entre Price_Y y Price_Z indica una relación fuerte (0.84). Cuando el precio de Y sube, el de Z casi siempre sube también en el mercado.
+- 
 
 
+<img width="395" height="166" alt="image" src="https://github.com/user-attachments/assets/b437fc17-2e2a-4772-9c4b-f300fbcc33a7" />
 
+Los valores absolutos representan el impacto estimado: por cada dólar que sube el insumo, cuánto sube (o baja) el precio del equipo. Al ver el valor absoluto, evaluamos la "fuerza" del impacto, ignorando si es positivo o negativo.
 
+- El insumo Price_Y (0.80) tiene el mayor impacto absoluto por una gran diferencia. Price_X tiene un impacto menor (0.20), y Price_Z es prácticamente cero (0.0005). Esto confirma que Price_Y es el verdadero determinante para el equipo1.
+
+- El insumo Price_X (0.36) tiene un impacto ligeramente mayor, pero Price_Y (0.34) y Price_Z (0.33) le siguen muy de cerca con valores casi idénticos. A diferencia del Equipo 1, no hay un factor dominante, lo      que confirma que el costo del Equipo 2 se ve afectado de forma combinada por las tres materias primas
 
 
 # Demostracion Visual de que el agente de IA funciona
 
-
-
+<img width="1228" height="247" alt="image" src="https://github.com/user-attachments/assets/8212e28f-cff8-43f0-92e3-9242deaaaee4" />
 
 
 # Futuros ajustes o mejoras
 
-- Ajustar el modelo de pronostico Prophet ademas de dar como resultado el precio a futuro de las variables independientes tambien de el precio del equipo ya que solo muestra el nombre mas no el precio.
-- Mejorar la configuracion de la inteligencia artificial para que en lugar de tener que hacerles preguntas muy puntuales porque la interfaz está hecha para seleccionar el mes y equipo a pronosticar, pueda         interpretar cualquier pregunta relacionada con cada tipo de equipo sin tener que haber seleccionado nada, sino que funcione como un cuadro de dialogo como chat gpt.
+- Mejorar la configuracion de la inteligencia artificial para que en lugar de tener que hacerles preguntas muy puntuales porque la interfaz está hecha para seleccionar el mes y equipo a pronosticar, pueda          interpretar cualquier pregunta relacionada con cada tipo de equipo sin tener que haber seleccionado nada, sino que funcione como un cuadro de dialogo como chat gpt.
+  
+- Para el agente utilizar alguna API que sea de pago por el tema de la limitacion de consultas por dias, en mi caso como he estado realizando muchas pruebas, he consumido mi limite de token por dia. Mas que una    mejora puede ser una recomendacion si lo que se busca es haceer muchas consultas usar servicios gratuitos tiene limites de token. se reinicia cada dia u otra opcion es cambiar el modelo llama para seguir         haciendo preguntas. Tener en cuenta que no todos tienen la opcion de hacer busquedas externas.
+  
 # Apreciaciones del caso o recomendaciones
 
 - Por lo general los modelos para pronosticar necesitan un historico que tengan todas las fechas dia a dia para mas precision a la hora de pronosticar a futuro, se pudo evidenciar que el dataset tenia saltos de dias podian ser 1,3,4. por mes para algunos tenia registros de 20 dias otros 21, etc. Conservar un historicos completo del mes seria mi recomendacion para un pronostico mas acertado. Esto solucionaría posiblemente lo dicho como futura mejora.
   
 - -Al comenzar la prueba durante los primeros 3 días investigué en sitios, PDF y videos de YouTube pero todas la soluciones recurrían a utilizar Azure machine Learning el módulo de designer donde todo el flujo se construía utilizando los componentes y el proceso de predicción se realizaba de forma interna pero en este entregable pedía código funcional así que como último recurso en los dos últimos días Lunes, recurrí a la Inteligencia artificial para poder brindar una solución al caso.
 
-- Teniendo en cuenta de que la solucion es presentada por medio de la nube, siempre que vayan a correr los notebook ejecutarlos con ejecutar all. Claro, cuando primero ya haya prendido el computo y conectado a los notebook.
+- Teniendo en cuenta de que la solucion es presentada por medio de la nube, siempre que vayan a correr los notebooke en orden ejecutarlos con ejecutar all. Claro, cuando primero ya haya prendido el computo y conectado a los notebook.
+  
+-  Para el agente utilizar alguna API que sea de pago por el tema de la limitacion de consultas por dias, en mi caso como he estado realizando muchas pruebas, he consumido mi limite de token por dia. Mas que una    mejora puede ser una recomendacion si lo que se busca es hacer muchas consultas usar servicios gratuitos tiene limites de token, entonces podriar cambiar el modelo que se usa en mi caso (llama-3.3-70b-versatile)  Tener en cuenta que no todos tienen la opcion de hacer busquedas externas. Otra opcion es una API de pago con buena capacidad de token.
+
 
 
