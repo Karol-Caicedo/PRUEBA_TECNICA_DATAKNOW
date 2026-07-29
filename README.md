@@ -83,17 +83,17 @@ Esto quiere decir que el precio de aquisicion de los equipos para esas fechas in
 
 2 - El pronóstico para el mes de septiembre incluyó los siguientes datos principales:
 
-Fecha con costo más alto: 30 de septiembre con un costo de $1,078.71
-Costo máximo del mes: $1,078.71
-Costo mínimo: $1,065.13
-Promedio mensual: $1,070.06
-Rango de incertidumbre promedio: $51.23
+- Fecha con costo más alto: 30 de septiembre con un costo de $1,078.71
+- Costo máximo del mes: $1,078.71
+- Costo mínimo: $1,065.13
+- Promedio mensual: $1,070.06
+- Rango de incertidumbre promedio: $51.23
 
-Estos resultados indican que, según el pronóstico, el costo del Equipo 2 durante el mes de septiembre varió entre un mínimo de $1,065.13 y un máximo de $1,078.71, con un promedio de $1,070.06. La fecha con el costo más alto fue el 30 de septiembre, con un costo de $1,078.71.
+- Estos resultados indican que, según el pronóstico, el costo del Equipo 2 durante el mes de septiembre varió entre un mínimo de $1,065.13 y un máximo de $1,078.71, con un promedio de $1,070.06. La fecha con el costo más alto fue el 30 de septiembre, con un costo de $1,078.71.
 
-El rango de incertidumbre promedio de $51.23 sugiere que hay una cierta variabilidad en los pronósticos, lo que significa que el costo real puede haber sido ligeramente diferente al pronosticado.
+- El rango de incertidumbre promedio de $51.23 sugiere que hay una cierta variabilidad en los pronósticos, lo que significa que el costo real puede haber sido ligeramente diferente al pronosticado.
 
-En general, estos resultados sugieren que el costo del Equipo 2 durante el mes de septiembre fue relativamente estable, con una tendencia a aumentar hacia el final del mes. Sin embargo, es importante tener en cuenta que estos son solo pronósticos y que los resultados reales pueden haber variado.
+- En general, estos resultados sugieren que el costo del Equipo 2 durante el mes de septiembre fue relativamente estable, con una tendencia a aumentar hacia el final del mes. Sin embargo, es importante tener en cuenta que estos son solo pronósticos y que los resultados reales pueden haber variado.
 
 
 3. - El costo pronosticado para el dia 3 de septiembre fue $480.41 con un intervalo de confianza del 90% entre $466.50 y $493.35.
@@ -103,14 +103,15 @@ Esto quiere decir que el precio de aquisicion de los equipos para esas fechas in
    
 4. El pronóstico para el mes de septiembre incluyó los siguientes datos principales:
 
-Fecha con costo más alto: 2023-09-04 con un costo de $490.67
-Costo máximo del mes: $490.67
-Costo mínimo: $468.92
-Promedio mensual: $483.40
-Rango de incertidumbre promedio: $27.11
+- Fecha con costo más alto: 2023-09-04 con un costo de $490.67
+- Costo máximo del mes: $490.67
+- Costo mínimo: $468.92
+- Promedio mensual: $483.40
+- Rango de incertidumbre promedio: $27.11
+  
 En resumen, septiembre tuvo un promedio de costo de $483.40, con un máximo de $490.67 y un mínimo de $468.92.
 
-Estos son algunos de los muchos resultado que hay expuestos por medio de la IA, sin embargo, por cuestiones de que son modelo gratuitos está la limitacion de token por dias.
+**Estos son algunos de los muchos resultado que hay expuestos por medio de la IA, sin embargo, por cuestiones de que son modelo gratuitos está la limitacion de token por dias**
 
 5. La importancia de usar modelos de machine learning en la gestión de costos operativos radica en su capacidad para analizar grandes cantidades de datos, identificar patrones y tendencias, y hacer predicciones precisas sobre los costos futuros. Esto permite a las empresas tomar decisiones informadas y optimizar sus procesos para reducir costos y mejorar la eficiencia.
 
@@ -128,18 +129,17 @@ Otros hallazgos como resultado de la consola
 <img width="527" height="402" alt="image" src="https://github.com/user-attachments/assets/314dafbc-2236-44a0-8b39-fc8a66832333" />
 
 Porcentaje de variacion por cada insumo: Variables determinantes
-En modelo Random Forest: el 99.16% de los cambios en el costo del Equipo 1 se explican exclusivamente por la materia prima Y. Las demás variables (X, Z ) son prácticamente ruido estadístico para este equipo.
-Para el equipo 2, El 95.75% del costo es determinado por la materia prima Z. La materia prima Y tiene un impacto marginal (2.4%), y el x es ruido estadístico para este equipo."
+- En modelo Random Forest: el 99.16% de los cambios en el costo del Equipo 1 se explican exclusivamente por la materia prima Y. Las demás variables (X, Z ) son prácticamente ruido estadístico para este equipo.
+  Para el equipo 2, El 95.75% del costo es determinado por la materia prima Z. La materia prima Y tiene un impacto marginal (2.4%), y el x es ruido estadístico para este equipo."
 
-Bajo la metrica de confianza  R2 que indica qué tan bueno fue el modelo explicándolo con datos que nunca había visto. Para este caso el resultado es que nuestro modelo logra explicar el 68.2% de la realidad del Equipo 1 y el 59.5% del Equipo 2 utilizando únicamente estas materias primas.
+- Bajo la metrica de confianza  R2 que indica qué tan bueno fue el modelo explicándolo con datos que nunca había visto. Para este caso el resultado es que nuestro modelo logra explicar el 68.2% de la realidad      del Equipo 1 y el 59.5% del Equipo 2 utilizando únicamente estas materias primas.
 
 Otros Hallazgos Visuales
 <img width="416" height="312" alt="image" src="https://github.com/user-attachments/assets/3b96a819-0e63-46e9-80b6-5c0b8ac8ce28" />
 
 Esta matriz de correlacion mide qué tan relacionados están los insumos entre sí. Va de -1 (inverso) a 1 (idénticos). 0 significa sin relación.
 - El cuadro rojo oscuro entre Price_Y y Price_Z indica una relación fuerte (0.84). Cuando el precio de Y sube, el de Z casi siempre sube también en el mercado.
-- 
-
+ 
 
 <img width="395" height="166" alt="image" src="https://github.com/user-attachments/assets/b437fc17-2e2a-4772-9c4b-f300fbcc33a7" />
 
