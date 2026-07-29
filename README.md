@@ -86,6 +86,7 @@ Teniendo en cuenta que la empresa quiere hacer el pronostico para los meses veni
 # Futuros ajustes o mejoras
 
 - Ajustar el modelo bien para que al pedirle realizar dia a dia el pronosticos para los meses venideros realmente lo haga ya que lo que hizo fue solo considerar algunos días del mes, en este caso el dataset terminaba en agosto y se predijo de septiembre a diciembre. Lo más probable es que lo haya hecho porque al basarse en el histórico pudo ver esa brecha/saltos de días o patron. Mas que una mejora del modelo, diria que los datos del historico.
+- Que el modelo de pronostico Prophet ademas de dar como resultado el precio a futuro de las variables independientes taanbien de el precio del equipo ya que solo muestra el nombre mas no el precio.
 
 # Apreciaciones del caso
 
