@@ -75,6 +75,7 @@ Teniendo en cuenta que la empresa quiere hacer el pronostico para los meses veni
 
 
 **Respuestas**
+
 1 - El pronóstico para el día 3 de septiembre fue de $1,076.63 con un rango de incertidumbre del 90% entre $1,049.83 y $1,100.85.
   - El pronóstico para el día 2 de septiembre fue de $1,076.19 con un rango de incertidumbre del 90% entre $1,050.11 y $1,099.30.
 
