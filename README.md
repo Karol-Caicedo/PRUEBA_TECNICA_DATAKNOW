@@ -145,7 +145,29 @@ Porcentaje de variacion por cada insumo: Variables determinantes
 - Bajo la metrica de confianza  R2 que indica qué tan bueno fue el modelo explicándolo con datos que nunca había visto. Para este caso el resultado es que nuestro modelo logra explicar el 68.2% de la realidad      del Equipo 1 y el 59.5% del Equipo 2 utilizando únicamente estas materias primas.
   
 
+| Métrica | Conjunto de datos | Ejecución de origen | Valor |
+|----------|-------------------|---------------------|------:|
+| MAE | - | Explicativo_Precio_Equipo1 | **38.95** |
+| R² | - | Explicativo_Precio_Equipo1 | **0.6825** |
+| RMSE | - | Explicativo_Precio_Equipo1 | **62.42** |
 
+
+| Métrica | Conjunto de datos | Ejecución de origen | Valor |
+|----------|-------------------|---------------------|------:|
+| MAE | - | Explicativo_Precio_Equipo2 | **62.38** |
+| R² | - | Explicativo_Precio_Equipo2 | **0.59** |
+| RMSE | - | Explicativo_Precio_Equipo2 | **101.19** |
+
+
+
+- R2 (0.68): Nuestro modelo logra explicar el 68.2% del comportamiento del precio del Equipo 1 utilizando el historial de los insumos. Es un nivel explicativo bastante fuerte (incluso mejor que el del Equipo 2),   lo que confirma que este equipo es altamente sensible al mercado de las materias primas (particularmente al insumo Y.
+- MAE (38.95): En promedio, cuando el modelo calcula el costo del Equipo 1, tiene un desfase de apenas $38.95 USD. Es un margen de error operativo bastante bajo y manejable para la planificación presupuestal.
+- RMSE (62.42): El RMSE penaliza los errores más grandes. Como es superior al MAE (62.42 vs 38.95), nos indica que aunque el error promedio es pequeño, existen ciertos momentos (picos de volatilidad en el          mercado) donde el precio del equipo da saltos atípicos que al modelo le cuesta un poco más predecir, pero en general mantiene una excelente precisión.
+
+
+- R2 (0.59): Nuestro modelo logra explicar casi el 60% del comportamiento del precio del Equipo 2 utilizando únicamente el historial de las materias primas. Es un nivel de confianza sólido para confirmar que hay una relación directa, aunque deja un 40% que probablemente dependa de otros factores externos (como logística o inflación).
+- MAE (62.38): En el día a día, cuando el modelo intenta adivinar el precio del Equipo 2, se equivoca en promedio por $62.38 USD. Es el margen de error típico.
+- RMSE (101.19): Esta métrica penaliza los errores grandes. Como 101.19 es mayor que el MAE (62.38), significa que aunque el error promedio es bajo, existen algunos picos o "días atípicos" donde el precio del equipo fue muy volátil y el modelo tuvo un margen de error mayor.
 **Otros Hallazgos Visuales**
 
 
