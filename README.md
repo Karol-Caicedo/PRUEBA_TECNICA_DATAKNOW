@@ -72,6 +72,7 @@ Teniendo en cuenta que la empresa quiere hacer el pronostico para los meses veni
 3. ¿Cuál fue el pronostico para el dia 3 de septiembre?, ¿y para el dia 2? -> Equipo1
 4. ¿Cuál fue el pronostico para el mes de septiembre? -> equipo1
 5. ¿Cual es la importancia de usar modelos de machine learning para le gestion de costos operativos?
+6. ¿Cual fue el pronostico para el mes de octubre?
 
 
 **Respuestas**
@@ -129,6 +130,14 @@ Esto quiere decir que el precio de aquisicion de los equipos para esas fechas in
    - Mejora en la toma de decisiones informadas
    - En el contexto de la logística y el transporte, el uso de modelos de machine learning puede ayudar a optimizar rutas, reducir costos de combustible y mejorar la eficiencia en la gestión de la cadena de           suministro. Además, la IA puede ayudar a anticipar escenarios operativos y mejorar la toma de decisiones basadas en datos.
   
+6. Según los datos proporcionados, el costo máximo del mes de octubre fue de $477.83 y el promedio mensual fue de $463.62. El rango de incertidumbre promedio fue de $26.93.
+
+En cuanto a los factores explicativos, el análisis de RandomForest y Prophet coinciden en que el precio de Y (Price_Y) es el factor más importante que explica el costo de Equipo 1, con una importancia del 99.16% y un coeficiente de 0.8018, respectivamente.
+
+La correlación entre los insumos muestra que Price_X y Price_Y tienen una correlación moderada de 0.49, mientras que Price_Y y Price_Z tienen una correlación alta de 0.84.
+
+En resumen, el pronóstico para el mes de octubre sugiere que el costo de Equipo 1 estuvo influenciado principalmente por el precio de Y, con un costo máximo de $477.83 y un promedio mensual de $463.62. La correlación entre los insumos sugiere que el precio de Y y Z están fuertemente relacionados, lo que podría influir en el costo de Equipo 1.
+
 
 **Otros hallazgos como resultado de la consola**
 
