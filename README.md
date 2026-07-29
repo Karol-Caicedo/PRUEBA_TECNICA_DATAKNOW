@@ -66,8 +66,29 @@ Teniendo en cuenta que la empresa quiere hacer el pronostico para los meses veni
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Futuros ajustes o mejoras
 
+- Ajustar el modelo bien para que al pedirle realizar dia a dia el pronosticos para los meses venideros realmente lo haga ya que lo que hizo fue solo considerar algunos días del mes, en este caso el dataset terminaba en agosto y se predijo de septiembre a diciembre. Lo más probable es que lo haya hecho porque al basarse en el histórico pudo ver esa brecha/saltos de días o patron. Mas que una mejora del modelo, diria que los datos del historico.
 
+# Apreciaciones del caso
+
+- Por lo general los modelos para pronosticar necesitan un historico que tengan todas las fechas dia a dia para mas precision a la hora de pronosticar a futuro, se pudo evidenciar que el dataset tenia saltos de dias podian ser 1,3,4. por mes para algunos tenia registros de 20 dias otros 21, etc. Conservar un historicos completo del mes seria mi recomendacion para un pronostico mas acertado. Esto solucionaría posiblemente lo dicho como futura mejora.
 
 
