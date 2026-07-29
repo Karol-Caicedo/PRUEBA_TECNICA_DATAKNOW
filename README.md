@@ -76,12 +76,15 @@ Teniendo en cuenta que la empresa quiere hacer el pronostico para los meses veni
 
 **Respuestas**
 
-1 - El pronóstico para el día 3 de septiembre fue de $1,076.63 con un rango de incertidumbre del 90% entre $1,049.83 y $1,100.85.
+1.  
+  - El pronóstico para el día 3 de septiembre fue de $1,076.63 con un rango de incertidumbre del 90% entre $1,049.83 y $1,100.85.
   - El pronóstico para el día 2 de septiembre fue de $1,076.19 con un rango de incertidumbre del 90% entre $1,050.11 y $1,099.30.
 
 Esto quiere decir que el precio de aquisicion de los equipos para esas fechas indicadas oscila entre (90% entre $1,049.83 y $1,100.85) y (90% entre $1,050.11 y $1,099.30.)
 
-2 - El pronóstico para el mes de septiembre incluyó los siguientes datos principales:
+2. 
+
+El pronóstico para el mes de septiembre incluyó los siguientes datos principales:
 
 - Fecha con costo más alto: 30 de septiembre con un costo de $1,078.71
 - Costo máximo del mes: $1,078.71
@@ -96,13 +99,16 @@ Esto quiere decir que el precio de aquisicion de los equipos para esas fechas in
 - En general, estos resultados sugieren que el costo del Equipo 2 durante el mes de septiembre fue relativamente estable, con una tendencia a aumentar hacia el final del mes. Sin embargo, es importante tener en cuenta que estos son solo pronósticos y que los resultados reales pueden haber variado.
 
 
-3 - El costo pronosticado para el dia 3 de septiembre fue $480.41 con un intervalo de confianza del 90% entre $466.50 y $493.35.
+3.  
+   - El costo pronosticado para el dia 3 de septiembre fue $480.41 con un intervalo de confianza del 90% entre $466.50 y $493.35.
    - El costo pronosticado para el dia 2 de septiembre fue $480.49 con un intervalo de confianza del 90% entre $466.90 y $494.83.
   
 Esto quiere decir que el precio de aquisicion de los equipos para esas fechas indicadas oscila entre (90% entre $466.90 y $494.83)
    
    
-4 - El pronóstico para el mes de septiembre incluyó los siguientes datos principales:
+4.
+
+ El pronóstico para el mes de septiembre incluyó los siguientes datos principales:
 
 - Fecha con costo más alto: 2023-09-04 con un costo de $490.67
 - Costo máximo del mes: $490.67
@@ -133,6 +139,7 @@ Otros hallazgos como resultado de la consola
 
 
 Porcentaje de variacion por cada insumo: Variables determinantes
+
 - En modelo Random Forest: el 99.16% de los cambios en el costo del Equipo 1 se explican exclusivamente por la materia prima Y. Las demás variables (X, Z ) son prácticamente ruido estadístico para este equipo.
   Para el equipo 2, El 95.75% del costo es determinado por la materia prima Z. La materia prima Y tiene un impacto marginal (2.4%), y el x es ruido estadístico para este equipo."
 
