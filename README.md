@@ -96,13 +96,13 @@ Esto quiere decir que el precio de aquisicion de los equipos para esas fechas in
 - En general, estos resultados sugieren que el costo del Equipo 2 durante el mes de septiembre fue relativamente estable, con una tendencia a aumentar hacia el final del mes. Sin embargo, es importante tener en cuenta que estos son solo pronósticos y que los resultados reales pueden haber variado.
 
 
-3. - El costo pronosticado para el dia 3 de septiembre fue $480.41 con un intervalo de confianza del 90% entre $466.50 y $493.35.
+3 - El costo pronosticado para el dia 3 de septiembre fue $480.41 con un intervalo de confianza del 90% entre $466.50 y $493.35.
    - El costo pronosticado para el dia 2 de septiembre fue $480.49 con un intervalo de confianza del 90% entre $466.90 y $494.83.
   
 Esto quiere decir que el precio de aquisicion de los equipos para esas fechas indicadas oscila entre (90% entre $466.90 y $494.83)
    
    
-4. El pronóstico para el mes de septiembre incluyó los siguientes datos principales:
+4 - El pronóstico para el mes de septiembre incluyó los siguientes datos principales:
 
 - Fecha con costo más alto: 2023-09-04 con un costo de $490.67
 - Costo máximo del mes: $490.67
