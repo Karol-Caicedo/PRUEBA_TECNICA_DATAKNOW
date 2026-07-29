@@ -127,7 +127,10 @@ Algunos de los beneficios del uso de modelos de machine learning en la gestión 
   
 
 Otros hallazgos como resultado de la consola
+
+
 <img width="527" height="402" alt="image" src="https://github.com/user-attachments/assets/314dafbc-2236-44a0-8b39-fc8a66832333" />
+
 
 Porcentaje de variacion por cada insumo: Variables determinantes
 - En modelo Random Forest: el 99.16% de los cambios en el costo del Equipo 1 se explican exclusivamente por la materia prima Y. Las demás variables (X, Z ) son prácticamente ruido estadístico para este equipo.
@@ -137,6 +140,8 @@ Porcentaje de variacion por cada insumo: Variables determinantes
 
 
 Otros Hallazgos Visuales
+
+
 <img width="416" height="312" alt="image" src="https://github.com/user-attachments/assets/3b96a819-0e63-46e9-80b6-5c0b8ac8ce28" />
 
 
