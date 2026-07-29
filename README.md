@@ -228,7 +228,7 @@ Es decir, los sistemas de IA convencionales se enfocan en realizar tareas espec�
   
 - -Al comenzar la prueba durante los primeros 3 días investigué en sitios, PDF y videos de YouTube pero todas la soluciones recurrían a utilizar Azure machine Learning el módulo de designer donde todo el flujo se construía utilizando los componentes y el proceso de predicción se realizaba de forma interna pero en este entregable pedía código funcional así que como último recurso en los dos últimos días Lunes, recurrí a la Inteligencia artificial para poder brindar una solución al caso.
 
-- Teniendo en cuenta de que la solucion es presentada por medio de la nube, siempre que vayan a correr los notebooke en orden ejecutarlos con ejecutar all. Claro, cuando primero ya haya prendido el computo y conectado a los notebook.
+- Teniendo en cuenta de que la solucion es presentada por medio de la nube, siempre que vayan a correr los notebooke en orden ejecutarlos con ejecutar all. Claro, cuando primero ya haya prendido el computo y conectado a los notebook. Tambien tener en cuenta que debes cambiar las rutas por las de tu Azure Databricks. 
   
 -  Para el agente utilizar alguna API que sea de pago por el tema de la limitacion de consultas por dias, en mi caso como he estado realizando muchas pruebas, he consumido mi limite de token por dia. Mas que una    mejora puede ser una recomendacion si lo que se busca es hacer muchas consultas usar servicios gratuitos tiene limites de token, entonces podriar cambiar el modelo que se usa en mi caso (llama-3.3-70b-versatile)  Tener en cuenta que no todos tienen la opcion de hacer busquedas externas. Otra opcion es una API de pago con buena capacidad de token.
 
